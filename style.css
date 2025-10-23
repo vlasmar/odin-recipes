@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    background-color: #f5ece5;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 36px;
+    color: darkred;
+}
+
+.recipes-list {
+    margin: 80px;
+}
+
+.recipes-item {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #e4dcd6;
+}
+
+.recipes-item > img {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
